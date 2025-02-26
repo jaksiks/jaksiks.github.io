@@ -9,6 +9,7 @@
   /* Font settings */
   --font-family: monospace;
   --line-height: 1.6;
+  --base-font-size: 1.1rem;
 }
 
 /* Base styles */
@@ -26,6 +27,7 @@ body {
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
+  font-size: var(--base-font-size);
 }
 
 /* Typography */
@@ -33,6 +35,10 @@ h1, h2, h3 {
   color: var(--accent-color);
   margin: 20px 0 10px 0;
 }
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.5rem; }
 
 p {
   margin-bottom: 15px;
@@ -86,7 +92,7 @@ footer {
 
 /* Profile */
 .profile-image {
-  max-width: 200px;
+  max-width: 250px;
   border: 1px solid var(--accent-color);
   margin-bottom: 20px;
 }
