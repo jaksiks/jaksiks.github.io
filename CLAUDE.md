@@ -11,11 +11,19 @@
 - Indent with 2 spaces
 - Use semantic HTML elements where appropriate (header, nav, main, etc.)
 - Include alt text for all images
+- Keep structure simple and minimal
+- Avoid excessive div nesting
 
 ### CSS
 - Use external stylesheets, not inline styles
-- Follow BEM naming conventions for classes
-- Organize properties alphabetically within selectors
+- Use simple selectors with minimal specificity
+- Use monospace font for text
+- Color scheme:
+  - Background: #1a1a1a (dark grey)
+  - Lighter background: #252525
+  - Text: #e0e0e0 (light grey)
+  - Accent: #6aa5c9 (blue)
+  - Muted: #a0a0a0 (medium grey)
 
 ### JavaScript
 - Use ES6+ syntax
@@ -24,6 +32,7 @@
 - Prefer descriptive function and variable names
 
 ### General
-- Keep file sizes optimized for web (compress images, minify production code)
-- Maintain mobile-first responsive design
+- Keep design minimal and text-focused
+- Maintain simple layout with basic styling
 - Ensure accessibility compliance
+- Style for readability over decoration
